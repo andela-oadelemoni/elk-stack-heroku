@@ -1,0 +1,4 @@
+# Test logstash-heroku-plugin installation
+---
+- name: Test logstash-heroku-plugin installation
+  command: bash -c "/opt/logstash/bin/logstash-plugin list | grep logstash-input-heroku"

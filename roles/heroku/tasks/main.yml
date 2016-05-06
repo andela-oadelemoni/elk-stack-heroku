@@ -1,0 +1,11 @@
+# Tasks to install logstash heroku plugin
+---
+- name: Check if the plugin is installed
+  command: bash -c "/opt/logstash/bin/logstash-plugin list | grep logstash-input-heroku && echo $?"
+  register: result
+  ignore_errors: True
+
+
+- name: Install logstash heroku plugin
+  command: bash -c "/opt/logstash/bin/logstash-plugin install logstash-input-heroku"
+  when: result.rc != 0

@@ -1,0 +1,227 @@
+2016-05-05T12:17:30.118705+00:00 heroku[api]: Release v2 created by kamiye@tinweb.com.ng
+2016-05-05T12:17:30.118705+00:00 heroku[api]: Enable Logplex by kamiye@tinweb.com.ng
+2016-05-05T12:18:13.312185+00:00 heroku[api]: Scale to web=1 by kamiye@tinweb.com.ng
+2016-05-05T12:18:13.312705+00:00 heroku[api]: Deploy 5846daa by kamiye@tinweb.com.ng
+2016-05-05T12:18:13.312705+00:00 heroku[api]: Release v3 created by kamiye@tinweb.com.ng
+2016-05-05T12:18:13.770071+00:00 heroku[slug-compiler]: Slug compilation started
+2016-05-05T12:18:13.770077+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-05-05T12:18:15.252608+00:00 heroku[web.1]: Starting process with command `node server.js`
+2016-05-05T12:18:17.790675+00:00 app[web.1]: { [Error: ENOENT: no such file or directory, open '.env'] errno: -2, code: 'ENOENT', syscall: 'open', path: '.env' }
+2016-05-05T12:18:17.886607+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2016-05-05T12:18:17.886623+00:00 app[web.1]: designed for a production environment, as it will leak
+2016-05-05T12:18:17.886629+00:00 app[web.1]: memory, and will not scale past a single process.
+2016-05-05T12:18:17.905045+00:00 app[web.1]: Listening on 39073
+2016-05-05T12:18:17.914937+00:00 app[web.1]: Connection to undefined is closed
+2016-05-05T12:18:17.914954+00:00 app[web.1]: Connection error: MongoError: getaddrinfo ENOTFOUND undefined undefined:27017
+2016-05-05T12:18:19.004115+00:00 heroku[web.1]: State changed from starting to up
+2016-05-05T12:18:20.106747+00:00 heroku[router]: at=info method=GET path="/" host=kam-doc-cache.herokuapp.com request_id=537d4113-fbd6-4fa8-928d-e5cb2a741f85 fwd="41.75.85.2" dyno=web.1 connect=10ms service=33ms status=200 bytes=2006
+2016-05-05T12:18:20.128394+00:00 app[web.1]: [0mGET / [32m200 [0m10.379 ms - 1717[0m
+2016-05-05T12:18:20.793202+00:00 heroku[router]: at=info method=GET path="/libs/angular-material/angular-material.min.css" host=kam-doc-cache.herokuapp.com request_id=78931a0d-a442-40da-a548-fb12d7808d7f fwd="41.75.85.2" dyno=web.1 connect=0ms service=19ms status=200 bytes=203426
+2016-05-05T12:18:20.818248+00:00 app[web.1]: [0mGET /libs/angular-material/angular-material.min.css [32m200 [0m4.856 ms - 203134[0m
+2016-05-05T12:18:20.991222+00:00 app[web.1]: [0mGET /assets/css/style.css [32m200 [0m0.852 ms - 1889[0m
+2016-05-05T12:18:20.959372+00:00 heroku[router]: at=info method=GET path="/assets/css/style.css" host=kam-doc-cache.herokuapp.com request_id=213bf02d-0fff-4a45-bd59-755e79bbc8d1 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=200 bytes=2177
+2016-05-05T12:18:21.178001+00:00 heroku[router]: at=info method=GET path="/libs/angular/angular.js" host=kam-doc-cache.herokuapp.com request_id=aafcbbce-992b-447f-8e1e-386a99049f54 fwd="41.75.85.2" dyno=web.1 connect=0ms service=44ms status=200 bytes=1065454
+2016-05-05T12:18:21.143881+00:00 heroku[router]: at=info method=GET path="/libs/angular-animate/angular-animate.min.js" host=kam-doc-cache.herokuapp.com request_id=27e4d711-abe5-4fec-a7f1-247d28f5880c fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=25821
+2016-05-05T12:18:21.178390+00:00 heroku[router]: at=info method=GET path="/libs/angular-resource/angular-resource.min.js" host=kam-doc-cache.herokuapp.com request_id=aadbc8f7-556f-4ac2-8b64-ba34099d8882 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=3965
+2016-05-05T12:18:21.174437+00:00 app[web.1]: [0mGET /libs/angular-animate/angular-animate.min.js [32m200 [0m0.690 ms - 25532[0m
+2016-05-05T12:18:21.202339+00:00 app[web.1]: [0mGET /libs/angular/angular.js [32m200 [0m1.297 ms - 1065161[0m
+2016-05-05T12:18:21.209066+00:00 app[web.1]: [0mGET /libs/angular-aria/angular-aria.min.js [32m200 [0m1.292 ms - 3765[0m
+2016-05-05T12:18:21.210804+00:00 app[web.1]: [0mGET /libs/angular-resource/angular-resource.min.js [32m200 [0m2.170 ms - 3678[0m
+2016-05-05T12:18:21.233677+00:00 app[web.1]: [0mGET /libs/angular-mocks/angular-mocks.js [32m200 [0m1.285 ms - 82771[0m
+2016-05-05T12:18:21.389591+00:00 app[web.1]: [0mGET /libs/ngstorage/ngStorage.min.js [32m200 [0m1.352 ms - 2268[0m
+2016-05-05T12:18:21.391385+00:00 app[web.1]: [0mGET /libs/angular-material/angular-material.min.js [32m200 [0m1.666 ms - 275438[0m
+2016-05-05T12:18:21.178212+00:00 heroku[router]: at=info method=GET path="/libs/angular-aria/angular-aria.min.js" host=kam-doc-cache.herokuapp.com request_id=7d0d99e3-ce82-434b-af4d-d88021636c03 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=200 bytes=4052
+2016-05-05T12:18:21.204949+00:00 heroku[router]: at=info method=GET path="/libs/angular-mocks/angular-mocks.js" host=kam-doc-cache.herokuapp.com request_id=fcbd11af-8806-44c7-825e-bdbc684434fd fwd="41.75.85.2" dyno=web.1 connect=0ms service=6ms status=200 bytes=83061
+2016-05-05T12:18:21.357205+00:00 heroku[router]: at=info method=GET path="/libs/ngstorage/ngStorage.min.js" host=kam-doc-cache.herokuapp.com request_id=03b09976-d959-4ad0-a462-96a3befd66ad fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=2555
+2016-05-05T12:18:21.366996+00:00 heroku[router]: at=info method=GET path="/libs/angular-material/angular-material.min.js" host=kam-doc-cache.herokuapp.com request_id=f9342a61-5dde-4c43-8a2e-f8f21d522803 fwd="41.75.85.2" dyno=web.1 connect=0ms service=14ms status=200 bytes=275729
+2016-05-05T12:18:21.501247+00:00 heroku[router]: at=info method=GET path="/libs/angular-material-icons/angular-material-icons.min.js" host=kam-doc-cache.herokuapp.com request_id=4c5f019c-a6e9-4b04-b8e2-a7cf549c55e8 fwd="41.75.85.2" dyno=web.1 connect=1ms service=11ms status=200 bytes=186673
+2016-05-05T12:18:21.527313+00:00 app[web.1]: [0mGET /libs/angular-material-icons/angular-material-icons.min.js [32m200 [0m1.443 ms - 186382[0m
+2016-05-05T12:18:21.570687+00:00 app[web.1]: [0mGET /libs/angular-ui-router/release/angular-ui-router.min.js [32m200 [0m2.374 ms - 30439[0m
+2016-05-05T12:18:21.538976+00:00 heroku[router]: at=info method=GET path="/libs/angular-ui-router/release/angular-ui-router.min.js" host=kam-doc-cache.herokuapp.com request_id=65731304-2b6d-4102-8695-f0a7b48eb87c fwd="41.75.85.2" dyno=web.1 connect=0ms service=5ms status=200 bytes=30728
+2016-05-05T12:18:21.887429+00:00 heroku[router]: at=info method=GET path="/app/app.js" host=kam-doc-cache.herokuapp.com request_id=ad3b1ce1-c1bf-4395-9fa8-e0abe0dc8c21 fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=2116
+2016-05-05T12:18:21.920057+00:00 app[web.1]: [0mGET /app/app.js [32m200 [0m0.882 ms - 1829[0m
+2016-05-05T12:18:22.644768+00:00 heroku[router]: at=info method=GET path="/app/services/baseurl.service.js" host=kam-doc-cache.herokuapp.com request_id=6f96b981-edd9-4fd4-890e-7ef9e2ab0134 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=363
+2016-05-05T12:18:22.700684+00:00 heroku[router]: at=info method=GET path="/app/services/user.service.js" host=kam-doc-cache.herokuapp.com request_id=01a22620-0a05-44c9-8f52-67b3f5a0a9e4 fwd="41.75.85.2" dyno=web.1 connect=1ms service=4ms status=200 bytes=1184
+2016-05-05T12:18:22.675862+00:00 app[web.1]: [0mGET /app/services/baseurl.service.js [32m200 [0m1.019 ms - 79[0m
+2016-05-05T12:18:22.732012+00:00 app[web.1]: [0mGET /app/services/user.service.js [32m200 [0m1.670 ms - 898[0m
+2016-05-05T12:18:22.751501+00:00 app[web.1]: [0mGET /app/services/document.service.js [32m200 [0m2.851 ms - 949[0m
+2016-05-05T12:18:22.853370+00:00 app[web.1]: [0mGET /app/services/toast.service.js [32m200 [0m1.212 ms - 325[0m
+2016-05-05T12:18:22.912160+00:00 app[web.1]: [0mGET /app/controllers/home.controller.js [32m200 [0m1.705 ms - 651[0m
+2016-05-05T12:18:22.719877+00:00 heroku[router]: at=info method=GET path="/app/services/document.service.js" host=kam-doc-cache.herokuapp.com request_id=3f763d7f-8383-478b-85eb-a38f745d2137 fwd="41.75.85.2" dyno=web.1 connect=0ms service=7ms status=200 bytes=1235
+2016-05-05T12:18:22.953975+00:00 heroku[router]: at=info method=GET path="/app/controllers/document.controller.js" host=kam-doc-cache.herokuapp.com request_id=43cd90b8-b1e2-44de-aa18-3a0dc003285b fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=3141
+2016-05-05T12:18:22.822651+00:00 heroku[router]: at=info method=GET path="/app/services/toast.service.js" host=kam-doc-cache.herokuapp.com request_id=2eeb9db3-c6c6-4ebb-aaa1-d7f618ddd301 fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=611
+2016-05-05T12:18:22.897905+00:00 heroku[router]: at=info method=GET path="/app/controllers/user.controller.js" host=kam-doc-cache.herokuapp.com request_id=1926f818-5625-4050-9d99-d23abc2bbbcc fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=200 bytes=3910
+2016-05-05T12:18:22.881171+00:00 heroku[router]: at=info method=GET path="/app/controllers/home.controller.js" host=kam-doc-cache.herokuapp.com request_id=3aeb22a0-6fb2-45e2-9d39-94ed893b6a22 fwd="41.75.85.2" dyno=web.1 connect=0ms service=5ms status=200 bytes=937
+2016-05-05T12:18:22.904381+00:00 heroku[router]: at=info method=GET path="/app/controllers/dashboard.controller.js" host=kam-doc-cache.herokuapp.com request_id=378631e1-0b3e-4fa7-bcc7-888b093c0e9f fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=832
+2016-05-05T12:18:22.930473+00:00 app[web.1]: [0mGET /app/controllers/user.controller.js [32m200 [0m0.749 ms - 3623[0m
+2016-05-05T12:18:22.934994+00:00 app[web.1]: [0mGET /app/controllers/dashboard.controller.js [32m200 [0m1.526 ms - 546[0m
+2016-05-05T12:18:22.985225+00:00 app[web.1]: [0mGET /app/controllers/document.controller.js [32m200 [0m1.336 ms - 2854[0m
+2016-05-05T12:18:29.638797+00:00 heroku[router]: at=info method=GET path="/app/views/home.view.html" host=kam-doc-cache.herokuapp.com request_id=e46f08b4-b034-40db-95f5-a9c67166529e fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=685
+2016-05-05T12:18:29.670851+00:00 app[web.1]: [0mGET /app/views/home.view.html [32m200 [0m0.934 ms - 397[0m
+2016-05-05T12:18:30.028836+00:00 heroku[router]: at=info method=GET path="/app/views/homeNavBar.view.html" host=kam-doc-cache.herokuapp.com request_id=bf1e35f0-2b08-4f2a-88ff-7e7ca12b7f81 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=1569
+2016-05-05T12:18:30.060779+00:00 app[web.1]: [0mGET /app/views/homeNavBar.view.html [32m200 [0m1.096 ms - 1280[0m
+2016-05-05T12:18:30.093626+00:00 app[web.1]: [0mGET /assets/imgs/doc.ico [32m200 [0m0.867 ms - 176101[0m
+2016-05-05T12:18:30.133158+00:00 app[web.1]: [0mGET /assets/imgs/apple.jpg [32m200 [0m0.894 ms - 2054497[0m
+2016-05-05T12:18:30.075430+00:00 heroku[router]: at=info method=GET path="/assets/imgs/doc.ico" host=kam-doc-cache.herokuapp.com request_id=bb4c1b06-0449-4e42-b50f-990ffa23d386 fwd="41.75.85.2" dyno=web.1 connect=2ms service=18ms status=200 bytes=176382
+2016-05-05T12:18:30.106307+00:00 heroku[router]: at=info method=GET path="/assets/imgs/apple.jpg" host=kam-doc-cache.herokuapp.com request_id=4ed85867-af05-4957-a4ce-59eb5d7faa51 fwd="41.75.85.2" dyno=web.1 connect=0ms service=66ms status=200 bytes=2054778
+2016-05-05T12:18:30.295351+00:00 heroku[router]: at=info method=GET path="/assets/imgs/login.svg" host=kam-doc-cache.herokuapp.com request_id=a1564aa1-340a-439b-8b58-99ce9cba3da0 fwd="41.75.85.2" dyno=web.1 connect=2ms service=3ms status=200 bytes=709
+2016-05-05T12:18:30.285584+00:00 heroku[router]: at=info method=GET path="/assets/imgs/account-plus.svg" host=kam-doc-cache.herokuapp.com request_id=dcfd5d92-c0b0-4d02-8bcc-9f43ff530897 fwd="41.75.85.2" dyno=web.1 connect=0ms service=18ms status=200 bytes=733
+2016-05-05T12:18:30.317455+00:00 app[web.1]: [0mGET /assets/imgs/account-plus.svg [32m200 [0m11.763 ms - 456[0m
+2016-05-05T12:18:30.327523+00:00 app[web.1]: [0mGET /assets/imgs/login.svg [32m200 [0m0.919 ms - 432[0m
+2016-05-05T12:27:52.306948+00:00 heroku[router]: at=info method=GET path="/" host=kam-doc-cache.herokuapp.com request_id=c5386804-3cf4-47a7-97f7-eb848b7fde3d fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2016-05-05T12:27:52.339090+00:00 app[web.1]: [0mGET / [36m304 [0m1.814 ms - -[0m
+2016-05-05T12:27:53.128201+00:00 heroku[router]: at=info method=GET path="/libs/angular/angular.js" host=kam-doc-cache.herokuapp.com request_id=c154b1ed-c6c4-4522-959f-5d99558b2a26 fwd="41.75.85.2" dyno=web.1 connect=0ms service=6ms status=304 bytes=240
+2016-05-05T12:27:53.131594+00:00 heroku[router]: at=info method=GET path="/libs/angular-material/angular-material.min.css" host=kam-doc-cache.herokuapp.com request_id=f58680f1-5538-4491-945c-abdf0ccb1a9d fwd="41.75.85.2" dyno=web.1 connect=2ms service=4ms status=304 bytes=239
+2016-05-05T12:27:53.128932+00:00 heroku[router]: at=info method=GET path="/libs/angular-resource/angular-resource.min.js" host=kam-doc-cache.herokuapp.com request_id=c5e7fa21-3d42-419a-82f3-3ffc4bd0a9c5 fwd="41.75.85.2" dyno=web.1 connect=1ms service=6ms status=304 bytes=237
+2016-05-05T12:27:53.126796+00:00 heroku[router]: at=info method=GET path="/libs/angular-animate/angular-animate.min.js" host=kam-doc-cache.herokuapp.com request_id=7a7cfa08-d3c7-4c3d-9155-23bb80256735 fwd="41.75.85.2" dyno=web.1 connect=0ms service=7ms status=304 bytes=238
+2016-05-05T12:27:53.126595+00:00 heroku[router]: at=info method=GET path="/libs/angular-aria/angular-aria.min.js" host=kam-doc-cache.herokuapp.com request_id=9eb531d1-0bce-42ae-b9f6-9dca4d7d72a1 fwd="41.75.85.2" dyno=web.1 connect=1ms service=6ms status=304 bytes=237
+2016-05-05T12:27:53.303596+00:00 heroku[router]: at=info method=GET path="/libs/ngstorage/ngStorage.min.js" host=kam-doc-cache.herokuapp.com request_id=ee34b1ca-402d-4768-91fa-3d8edb6b8e51 fwd="41.75.85.2" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2016-05-05T12:27:53.130503+00:00 heroku[router]: at=info method=GET path="/assets/css/style.css" host=kam-doc-cache.herokuapp.com request_id=d6aedda4-cb92-46ad-82e2-83c67774b8be fwd="41.75.85.2" dyno=web.1 connect=0ms service=6ms status=304 bytes=237
+2016-05-05T12:27:53.159115+00:00 app[web.1]: [0mGET /libs/angular/angular.js [36m304 [0m2.737 ms - -[0m
+2016-05-05T12:27:53.159541+00:00 app[web.1]: [0mGET /assets/css/style.css [36m304 [0m2.850 ms - -[0m
+2016-05-05T12:27:53.160259+00:00 app[web.1]: [0mGET /libs/angular-aria/angular-aria.min.js [36m304 [0m3.023 ms - -[0m
+2016-05-05T12:27:53.160689+00:00 app[web.1]: [0mGET /libs/angular-resource/angular-resource.min.js [36m304 [0m3.094 ms - -[0m
+2016-05-05T12:27:53.162048+00:00 app[web.1]: [0mGET /libs/angular-animate/angular-animate.min.js [36m304 [0m3.876 ms - -[0m
+2016-05-05T12:27:53.163364+00:00 app[web.1]: [0mGET /libs/angular-material/angular-material.min.css [36m304 [0m0.529 ms - -[0m
+2016-05-05T12:27:53.333961+00:00 app[web.1]: [0mGET /libs/angular-mocks/angular-mocks.js [36m304 [0m0.572 ms - -[0m
+2016-05-05T12:27:53.336878+00:00 app[web.1]: [0mGET /libs/ngstorage/ngStorage.min.js [36m304 [0m0.341 ms - -[0m
+2016-05-05T12:27:53.342520+00:00 app[web.1]: [0mGET /libs/angular-material-icons/angular-material-icons.min.js [36m304 [0m1.045 ms - -[0m
+2016-05-05T12:27:53.344562+00:00 app[web.1]: [0mGET /libs/angular-ui-router/release/angular-ui-router.min.js [36m304 [0m1.190 ms - -[0m
+2016-05-05T12:27:53.345390+00:00 app[web.1]: [0mGET /app/app.js [36m304 [0m1.259 ms - -[0m
+2016-05-05T12:27:53.355876+00:00 app[web.1]: [0mGET /libs/angular-material/angular-material.min.js [36m304 [0m0.499 ms - -[0m
+2016-05-05T12:27:53.327673+00:00 heroku[router]: at=info method=GET path="/libs/angular-material/angular-material.min.js" host=kam-doc-cache.herokuapp.com request_id=03bffa0a-5024-4787-98a8-9535ca405d7e fwd="41.75.85.2" dyno=web.1 connect=3ms service=3ms status=304 bytes=239
+2016-05-05T12:27:53.303198+00:00 heroku[router]: at=info method=GET path="/libs/angular-mocks/angular-mocks.js" host=kam-doc-cache.herokuapp.com request_id=b4e82471-a942-4ff1-b351-1875a37c9443 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=239
+2016-05-05T12:27:53.310621+00:00 heroku[router]: at=info method=GET path="/libs/angular-material-icons/angular-material-icons.min.js" host=kam-doc-cache.herokuapp.com request_id=f40d90b1-3cb6-4427-9d4c-924eb7a391d4 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=239
+2016-05-05T12:27:53.313266+00:00 heroku[router]: at=info method=GET path="/app/app.js" host=kam-doc-cache.herokuapp.com request_id=9c09fa21-8280-4bbe-82d3-abe9c9277b46 fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2016-05-05T12:27:53.484833+00:00 heroku[router]: at=info method=GET path="/app/services/document.service.js" host=kam-doc-cache.herokuapp.com request_id=8221339a-cd37-4239-9a1b-5f1d310f8640 fwd="41.75.85.2" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2016-05-05T12:27:53.309619+00:00 heroku[router]: at=info method=GET path="/libs/angular-ui-router/release/angular-ui-router.min.js" host=kam-doc-cache.herokuapp.com request_id=9586e2da-a19b-46c4-9576-0796f4323d23 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=304 bytes=238
+2016-05-05T12:27:53.494098+00:00 heroku[router]: at=info method=GET path="/app/services/toast.service.js" host=kam-doc-cache.herokuapp.com request_id=d25a4944-c9a3-423a-831b-84028c81a3d7 fwd="41.75.85.2" dyno=web.1 connect=0ms service=10ms status=304 bytes=237
+2016-05-05T12:27:53.482465+00:00 heroku[router]: at=info method=GET path="/app/services/user.service.js" host=kam-doc-cache.herokuapp.com request_id=a7fc3ce4-7523-4ee8-b9a4-228964a3adc3 fwd="41.75.85.2" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2016-05-05T12:27:53.507344+00:00 heroku[router]: at=info method=GET path="/app/controllers/user.controller.js" host=kam-doc-cache.herokuapp.com request_id=a3fe62f6-c608-46b7-8f8d-a635ae9f2b1a fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2016-05-05T12:27:53.478991+00:00 heroku[router]: at=info method=GET path="/app/services/baseurl.service.js" host=kam-doc-cache.herokuapp.com request_id=d28e0504-649d-49ad-b7da-b041d42a8515 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=236
+2016-05-05T12:27:53.490882+00:00 heroku[router]: at=info method=GET path="/app/controllers/home.controller.js" host=kam-doc-cache.herokuapp.com request_id=059303c1-dba5-4182-962a-89d715b5c384 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2016-05-05T12:27:53.510056+00:00 app[web.1]: [0mGET /app/services/baseurl.service.js [36m304 [0m1.161 ms - -[0m
+2016-05-05T12:27:53.515412+00:00 app[web.1]: [0mGET /app/services/user.service.js [36m304 [0m0.590 ms - -[0m
+2016-05-05T12:27:53.516710+00:00 app[web.1]: [0mGET /app/services/document.service.js [36m304 [0m0.559 ms - -[0m
+2016-05-05T12:27:53.522451+00:00 app[web.1]: [0mGET /app/services/toast.service.js [36m304 [0m3.575 ms - -[0m
+2016-05-05T12:27:53.522881+00:00 app[web.1]: [0mGET /app/controllers/home.controller.js [36m304 [0m3.274 ms - -[0m
+2016-05-05T12:27:53.536758+00:00 app[web.1]: [0mGET /app/controllers/user.controller.js [36m304 [0m0.800 ms - -[0m
+2016-05-05T12:27:53.688669+00:00 app[web.1]: [0mGET /app/controllers/dashboard.controller.js [36m304 [0m0.861 ms - -[0m
+2016-05-05T12:27:53.697974+00:00 app[web.1]: [0mGET /app/controllers/document.controller.js [36m304 [0m0.561 ms - -[0m
+2016-05-05T12:27:53.664336+00:00 heroku[router]: at=info method=GET path="/app/controllers/document.controller.js" host=kam-doc-cache.herokuapp.com request_id=a94b4063-60e7-4f9f-b09e-3d97745f8072 fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2016-05-05T12:27:53.662319+00:00 heroku[router]: at=info method=GET path="/app/controllers/dashboard.controller.js" host=kam-doc-cache.herokuapp.com request_id=3039af1b-9f50-4b45-9fbd-65262e4dbe63 fwd="41.75.85.2" dyno=web.1 connect=0ms service=6ms status=304 bytes=237
+2016-05-05T12:27:54.092417+00:00 heroku[router]: at=info method=GET path="/app/views/home.view.html" host=kam-doc-cache.herokuapp.com request_id=187a590c-e115-4e96-9acb-e55d2ea1deea fwd="41.75.85.2" dyno=web.1 connect=0ms service=5ms status=304 bytes=237
+2016-05-05T12:27:54.126145+00:00 app[web.1]: [0mGET /app/views/home.view.html [36m304 [0m0.911 ms - -[0m
+2016-05-05T12:27:54.412084+00:00 heroku[router]: at=info method=GET path="/app/views/homeNavBar.view.html" host=kam-doc-cache.herokuapp.com request_id=fb0f158a-1d01-4153-b03c-4a51a51623d7 fwd="41.75.85.2" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2016-05-05T12:27:54.445808+00:00 app[web.1]: [0mGET /app/views/homeNavBar.view.html [36m304 [0m1.543 ms - -[0m
+2016-05-05T12:27:54.457649+00:00 app[web.1]: [0mGET /assets/imgs/apple.jpg [36m304 [0m0.844 ms - -[0m
+2016-05-05T12:27:54.675952+00:00 app[web.1]: [0mGET /assets/imgs/account-plus.svg [36m304 [0m0.636 ms - -[0m
+2016-05-05T12:27:54.677740+00:00 app[web.1]: [0mGET /assets/imgs/login.svg [36m304 [0m0.394 ms - -[0m
+2016-05-05T12:27:54.426339+00:00 heroku[router]: at=info method=GET path="/assets/imgs/apple.jpg" host=kam-doc-cache.herokuapp.com request_id=445e4180-c75b-491d-bece-b72a0b4153f1 fwd="41.75.85.2" dyno=web.1 connect=1ms service=3ms status=304 bytes=240
+2016-05-05T12:27:54.644958+00:00 heroku[router]: at=info method=GET path="/assets/imgs/account-plus.svg" host=kam-doc-cache.herokuapp.com request_id=68946d78-2ec6-452b-a7a5-029892809291 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2016-05-05T12:27:54.644888+00:00 heroku[router]: at=info method=GET path="/assets/imgs/login.svg" host=kam-doc-cache.herokuapp.com request_id=68c75f3b-55fe-4172-bd8d-3c001701f36c fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2016-05-05T12:18:20.959372+00:00 heroku[router]: at=info method=GET path="/assets/css/style.css" host=kam-doc-cache.herokuapp.com request_id=213bf02d-0fff-4a45-bd59-755e79bbc8d1 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=200 bytes=2177
+2016-05-05T12:18:21.178001+00:00 heroku[router]: at=info method=GET path="/libs/angular/angular.js" host=kam-doc-cache.herokuapp.com request_id=aafcbbce-992b-447f-8e1e-386a99049f54 fwd="41.75.85.2" dyno=web.1 connect=0ms service=44ms status=200 bytes=1065454
+2016-05-05T12:18:21.143881+00:00 heroku[router]: at=info method=GET path="/libs/angular-animate/angular-animate.min.js" host=kam-doc-cache.herokuapp.com request_id=27e4d711-abe5-4fec-a7f1-247d28f5880c fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=25821
+2016-05-05T12:18:21.178390+00:00 heroku[router]: at=info method=GET path="/libs/angular-resource/angular-resource.min.js" host=kam-doc-cache.herokuapp.com request_id=aadbc8f7-556f-4ac2-8b64-ba34099d8882 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=3965
+2016-05-05T12:18:21.174437+00:00 app[web.1]: [0mGET /libs/angular-animate/angular-animate.min.js [32m200 [0m0.690 ms - 25532[0m
+2016-05-05T12:18:21.202339+00:00 app[web.1]: [0mGET /libs/angular/angular.js [32m200 [0m1.297 ms - 1065161[0m
+2016-05-05T12:18:21.209066+00:00 app[web.1]: [0mGET /libs/angular-aria/angular-aria.min.js [32m200 [0m1.292 ms - 3765[0m
+2016-05-05T12:18:21.210804+00:00 app[web.1]: [0mGET /libs/angular-resource/angular-resource.min.js [32m200 [0m2.170 ms - 3678[0m
+2016-05-05T12:18:21.233677+00:00 app[web.1]: [0mGET /libs/angular-mocks/angular-mocks.js [32m200 [0m1.285 ms - 82771[0m
+2016-05-05T12:18:21.389591+00:00 app[web.1]: [0mGET /libs/ngstorage/ngStorage.min.js [32m200 [0m1.352 ms - 2268[0m
+2016-05-05T12:18:21.391385+00:00 app[web.1]: [0mGET /libs/angular-material/angular-material.min.js [32m200 [0m1.666 ms - 275438[0m
+2016-05-05T12:18:21.178212+00:00 heroku[router]: at=info method=GET path="/libs/angular-aria/angular-aria.min.js" host=kam-doc-cache.herokuapp.com request_id=7d0d99e3-ce82-434b-af4d-d88021636c03 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=200 bytes=4052
+2016-05-05T12:18:21.204949+00:00 heroku[router]: at=info method=GET path="/libs/angular-mocks/angular-mocks.js" host=kam-doc-cache.herokuapp.com request_id=fcbd11af-8806-44c7-825e-bdbc684434fd fwd="41.75.85.2" dyno=web.1 connect=0ms service=6ms status=200 bytes=83061
+2016-05-05T12:18:21.357205+00:00 heroku[router]: at=info method=GET path="/libs/ngstorage/ngStorage.min.js" host=kam-doc-cache.herokuapp.com request_id=03b09976-d959-4ad0-a462-96a3befd66ad fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=2555
+2016-05-05T12:18:21.366996+00:00 heroku[router]: at=info method=GET path="/libs/angular-material/angular-material.min.js" host=kam-doc-cache.herokuapp.com request_id=f9342a61-5dde-4c43-8a2e-f8f21d522803 fwd="41.75.85.2" dyno=web.1 connect=0ms service=14ms status=200 bytes=275729
+2016-05-05T12:18:21.501247+00:00 heroku[router]: at=info method=GET path="/libs/angular-material-icons/angular-material-icons.min.js" host=kam-doc-cache.herokuapp.com request_id=4c5f019c-a6e9-4b04-b8e2-a7cf549c55e8 fwd="41.75.85.2" dyno=web.1 connect=1ms service=11ms status=200 bytes=186673
+2016-05-05T12:18:21.527313+00:00 app[web.1]: [0mGET /libs/angular-material-icons/angular-material-icons.min.js [32m200 [0m1.443 ms - 186382[0m
+2016-05-05T12:18:21.570687+00:00 app[web.1]: [0mGET /libs/angular-ui-router/release/angular-ui-router.min.js [32m200 [0m2.374 ms - 30439[0m
+2016-05-05T12:18:21.538976+00:00 heroku[router]: at=info method=GET path="/libs/angular-ui-router/release/angular-ui-router.min.js" host=kam-doc-cache.herokuapp.com request_id=65731304-2b6d-4102-8695-f0a7b48eb87c fwd="41.75.85.2" dyno=web.1 connect=0ms service=5ms status=200 bytes=30728
+2016-05-05T12:18:21.887429+00:00 heroku[router]: at=info method=GET path="/app/app.js" host=kam-doc-cache.herokuapp.com request_id=ad3b1ce1-c1bf-4395-9fa8-e0abe0dc8c21 fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=2116
+2016-05-05T12:18:21.920057+00:00 app[web.1]: [0mGET /app/app.js [32m200 [0m0.882 ms - 1829[0m
+2016-05-05T12:18:22.644768+00:00 heroku[router]: at=info method=GET path="/app/services/baseurl.service.js" host=kam-doc-cache.herokuapp.com request_id=6f96b981-edd9-4fd4-890e-7ef9e2ab0134 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=363
+2016-05-05T12:18:22.700684+00:00 heroku[router]: at=info method=GET path="/app/services/user.service.js" host=kam-doc-cache.herokuapp.com request_id=01a22620-0a05-44c9-8f52-67b3f5a0a9e4 fwd="41.75.85.2" dyno=web.1 connect=1ms service=4ms status=200 bytes=1184
+2016-05-05T12:18:22.675862+00:00 app[web.1]: [0mGET /app/services/baseurl.service.js [32m200 [0m1.019 ms - 79[0m
+2016-05-05T12:18:22.732012+00:00 app[web.1]: [0mGET /app/services/user.service.js [32m200 [0m1.670 ms - 898[0m
+2016-05-05T12:18:22.751501+00:00 app[web.1]: [0mGET /app/services/document.service.js [32m200 [0m2.851 ms - 949[0m
+2016-05-05T12:18:22.853370+00:00 app[web.1]: [0mGET /app/services/toast.service.js [32m200 [0m1.212 ms - 325[0m
+2016-05-05T12:18:22.912160+00:00 app[web.1]: [0mGET /app/controllers/home.controller.js [32m200 [0m1.705 ms - 651[0m
+2016-05-05T12:18:22.719877+00:00 heroku[router]: at=info method=GET path="/app/services/document.service.js" host=kam-doc-cache.herokuapp.com request_id=3f763d7f-8383-478b-85eb-a38f745d2137 fwd="41.75.85.2" dyno=web.1 connect=0ms service=7ms status=200 bytes=1235
+2016-05-05T12:18:22.953975+00:00 heroku[router]: at=info method=GET path="/app/controllers/document.controller.js" host=kam-doc-cache.herokuapp.com request_id=43cd90b8-b1e2-44de-aa18-3a0dc003285b fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=3141
+2016-05-05T12:18:22.822651+00:00 heroku[router]: at=info method=GET path="/app/services/toast.service.js" host=kam-doc-cache.herokuapp.com request_id=2eeb9db3-c6c6-4ebb-aaa1-d7f618ddd301 fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=611
+2016-05-05T12:18:22.897905+00:00 heroku[router]: at=info method=GET path="/app/controllers/user.controller.js" host=kam-doc-cache.herokuapp.com request_id=1926f818-5625-4050-9d99-d23abc2bbbcc fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=200 bytes=3910
+2016-05-05T12:18:22.881171+00:00 heroku[router]: at=info method=GET path="/app/controllers/home.controller.js" host=kam-doc-cache.herokuapp.com request_id=3aeb22a0-6fb2-45e2-9d39-94ed893b6a22 fwd="41.75.85.2" dyno=web.1 connect=0ms service=5ms status=200 bytes=937
+2016-05-05T12:18:22.904381+00:00 heroku[router]: at=info method=GET path="/app/controllers/dashboard.controller.js" host=kam-doc-cache.herokuapp.com request_id=378631e1-0b3e-4fa7-bcc7-888b093c0e9f fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=832
+2016-05-05T12:18:22.930473+00:00 app[web.1]: [0mGET /app/controllers/user.controller.js [32m200 [0m0.749 ms - 3623[0m
+2016-05-05T12:18:22.934994+00:00 app[web.1]: [0mGET /app/controllers/dashboard.controller.js [32m200 [0m1.526 ms - 546[0m
+2016-05-05T12:18:22.985225+00:00 app[web.1]: [0mGET /app/controllers/document.controller.js [32m200 [0m1.336 ms - 2854[0m
+2016-05-05T12:18:29.638797+00:00 heroku[router]: at=info method=GET path="/app/views/home.view.html" host=kam-doc-cache.herokuapp.com request_id=e46f08b4-b034-40db-95f5-a9c67166529e fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=200 bytes=685
+2016-05-05T12:18:29.670851+00:00 app[web.1]: [0mGET /app/views/home.view.html [32m200 [0m0.934 ms - 397[0m
+2016-05-05T12:18:30.028836+00:00 heroku[router]: at=info method=GET path="/app/views/homeNavBar.view.html" host=kam-doc-cache.herokuapp.com request_id=bf1e35f0-2b08-4f2a-88ff-7e7ca12b7f81 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=200 bytes=1569
+2016-05-05T12:18:30.060779+00:00 app[web.1]: [0mGET /app/views/homeNavBar.view.html [32m200 [0m1.096 ms - 1280[0m
+2016-05-05T12:18:30.093626+00:00 app[web.1]: [0mGET /assets/imgs/doc.ico [32m200 [0m0.867 ms - 176101[0m
+2016-05-05T12:18:30.133158+00:00 app[web.1]: [0mGET /assets/imgs/apple.jpg [32m200 [0m0.894 ms - 2054497[0m
+2016-05-05T12:18:30.075430+00:00 heroku[router]: at=info method=GET path="/assets/imgs/doc.ico" host=kam-doc-cache.herokuapp.com request_id=bb4c1b06-0449-4e42-b50f-990ffa23d386 fwd="41.75.85.2" dyno=web.1 connect=2ms service=18ms status=200 bytes=176382
+2016-05-05T12:18:30.106307+00:00 heroku[router]: at=info method=GET path="/assets/imgs/apple.jpg" host=kam-doc-cache.herokuapp.com request_id=4ed85867-af05-4957-a4ce-59eb5d7faa51 fwd="41.75.85.2" dyno=web.1 connect=0ms service=66ms status=200 bytes=2054778
+2016-05-05T12:18:30.295351+00:00 heroku[router]: at=info method=GET path="/assets/imgs/login.svg" host=kam-doc-cache.herokuapp.com request_id=a1564aa1-340a-439b-8b58-99ce9cba3da0 fwd="41.75.85.2" dyno=web.1 connect=2ms service=3ms status=200 bytes=709
+2016-05-05T12:18:30.285584+00:00 heroku[router]: at=info method=GET path="/assets/imgs/account-plus.svg" host=kam-doc-cache.herokuapp.com request_id=dcfd5d92-c0b0-4d02-8bcc-9f43ff530897 fwd="41.75.85.2" dyno=web.1 connect=0ms service=18ms status=200 bytes=733
+2016-05-05T12:18:30.317455+00:00 app[web.1]: [0mGET /assets/imgs/account-plus.svg [32m200 [0m11.763 ms - 456[0m
+2016-05-05T12:18:30.327523+00:00 app[web.1]: [0mGET /assets/imgs/login.svg [32m200 [0m0.919 ms - 432[0m
+2016-05-05T12:27:52.306948+00:00 heroku[router]: at=info method=GET path="/" host=kam-doc-cache.herokuapp.com request_id=c5386804-3cf4-47a7-97f7-eb848b7fde3d fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2016-05-05T12:27:52.339090+00:00 app[web.1]: [0mGET / [36m304 [0m1.814 ms - -[0m
+2016-05-05T12:27:53.128201+00:00 heroku[router]: at=info method=GET path="/libs/angular/angular.js" host=kam-doc-cache.herokuapp.com request_id=c154b1ed-c6c4-4522-959f-5d99558b2a26 fwd="41.75.85.2" dyno=web.1 connect=0ms service=6ms status=304 bytes=240
+2016-05-05T12:27:53.131594+00:00 heroku[router]: at=info method=GET path="/libs/angular-material/angular-material.min.css" host=kam-doc-cache.herokuapp.com request_id=f58680f1-5538-4491-945c-abdf0ccb1a9d fwd="41.75.85.2" dyno=web.1 connect=2ms service=4ms status=304 bytes=239
+2016-05-05T12:27:53.128932+00:00 heroku[router]: at=info method=GET path="/libs/angular-resource/angular-resource.min.js" host=kam-doc-cache.herokuapp.com request_id=c5e7fa21-3d42-419a-82f3-3ffc4bd0a9c5 fwd="41.75.85.2" dyno=web.1 connect=1ms service=6ms status=304 bytes=237
+2016-05-05T12:27:53.126796+00:00 heroku[router]: at=info method=GET path="/libs/angular-animate/angular-animate.min.js" host=kam-doc-cache.herokuapp.com request_id=7a7cfa08-d3c7-4c3d-9155-23bb80256735 fwd="41.75.85.2" dyno=web.1 connect=0ms service=7ms status=304 bytes=238
+2016-05-05T12:27:53.126595+00:00 heroku[router]: at=info method=GET path="/libs/angular-aria/angular-aria.min.js" host=kam-doc-cache.herokuapp.com request_id=9eb531d1-0bce-42ae-b9f6-9dca4d7d72a1 fwd="41.75.85.2" dyno=web.1 connect=1ms service=6ms status=304 bytes=237
+2016-05-05T12:27:53.303596+00:00 heroku[router]: at=info method=GET path="/libs/ngstorage/ngStorage.min.js" host=kam-doc-cache.herokuapp.com request_id=ee34b1ca-402d-4768-91fa-3d8edb6b8e51 fwd="41.75.85.2" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2016-05-05T12:27:53.130503+00:00 heroku[router]: at=info method=GET path="/assets/css/style.css" host=kam-doc-cache.herokuapp.com request_id=d6aedda4-cb92-46ad-82e2-83c67774b8be fwd="41.75.85.2" dyno=web.1 connect=0ms service=6ms status=304 bytes=237
+2016-05-05T12:27:53.159115+00:00 app[web.1]: [0mGET /libs/angular/angular.js [36m304 [0m2.737 ms - -[0m
+2016-05-05T12:27:53.159541+00:00 app[web.1]: [0mGET /assets/css/style.css [36m304 [0m2.850 ms - -[0m
+2016-05-05T12:27:53.160259+00:00 app[web.1]: [0mGET /libs/angular-aria/angular-aria.min.js [36m304 [0m3.023 ms - -[0m
+2016-05-05T12:27:53.160689+00:00 app[web.1]: [0mGET /libs/angular-resource/angular-resource.min.js [36m304 [0m3.094 ms - -[0m
+2016-05-05T12:27:53.162048+00:00 app[web.1]: [0mGET /libs/angular-animate/angular-animate.min.js [36m304 [0m3.876 ms - -[0m
+2016-05-05T12:27:53.163364+00:00 app[web.1]: [0mGET /libs/angular-material/angular-material.min.css [36m304 [0m0.529 ms - -[0m
+2016-05-05T12:27:53.333961+00:00 app[web.1]: [0mGET /libs/angular-mocks/angular-mocks.js [36m304 [0m0.572 ms - -[0m
+2016-05-05T12:27:53.336878+00:00 app[web.1]: [0mGET /libs/ngstorage/ngStorage.min.js [36m304 [0m0.341 ms - -[0m
+2016-05-05T12:27:53.342520+00:00 app[web.1]: [0mGET /libs/angular-material-icons/angular-material-icons.min.js [36m304 [0m1.045 ms - -[0m
+2016-05-05T12:27:53.344562+00:00 app[web.1]: [0mGET /libs/angular-ui-router/release/angular-ui-router.min.js [36m304 [0m1.190 ms - -[0m
+2016-05-05T12:27:53.345390+00:00 app[web.1]: [0mGET /app/app.js [36m304 [0m1.259 ms - -[0m
+2016-05-05T12:27:53.355876+00:00 app[web.1]: [0mGET /libs/angular-material/angular-material.min.js [36m304 [0m0.499 ms - -[0m
+2016-05-05T12:27:53.327673+00:00 heroku[router]: at=info method=GET path="/libs/angular-material/angular-material.min.js" host=kam-doc-cache.herokuapp.com request_id=03bffa0a-5024-4787-98a8-9535ca405d7e fwd="41.75.85.2" dyno=web.1 connect=3ms service=3ms status=304 bytes=239
+2016-05-05T12:27:53.303198+00:00 heroku[router]: at=info method=GET path="/libs/angular-mocks/angular-mocks.js" host=kam-doc-cache.herokuapp.com request_id=b4e82471-a942-4ff1-b351-1875a37c9443 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=239
+2016-05-05T12:27:53.310621+00:00 heroku[router]: at=info method=GET path="/libs/angular-material-icons/angular-material-icons.min.js" host=kam-doc-cache.herokuapp.com request_id=f40d90b1-3cb6-4427-9d4c-924eb7a391d4 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=239
+2016-05-05T12:27:53.313266+00:00 heroku[router]: at=info method=GET path="/app/app.js" host=kam-doc-cache.herokuapp.com request_id=9c09fa21-8280-4bbe-82d3-abe9c9277b46 fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2016-05-05T12:27:53.484833+00:00 heroku[router]: at=info method=GET path="/app/services/document.service.js" host=kam-doc-cache.herokuapp.com request_id=8221339a-cd37-4239-9a1b-5f1d310f8640 fwd="41.75.85.2" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2016-05-05T12:27:53.309619+00:00 heroku[router]: at=info method=GET path="/libs/angular-ui-router/release/angular-ui-router.min.js" host=kam-doc-cache.herokuapp.com request_id=9586e2da-a19b-46c4-9576-0796f4323d23 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=304 bytes=238
+2016-05-05T12:27:53.494098+00:00 heroku[router]: at=info method=GET path="/app/services/toast.service.js" host=kam-doc-cache.herokuapp.com request_id=d25a4944-c9a3-423a-831b-84028c81a3d7 fwd="41.75.85.2" dyno=web.1 connect=0ms service=10ms status=304 bytes=237
+2016-05-05T12:27:53.482465+00:00 heroku[router]: at=info method=GET path="/app/services/user.service.js" host=kam-doc-cache.herokuapp.com request_id=a7fc3ce4-7523-4ee8-b9a4-228964a3adc3 fwd="41.75.85.2" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2016-05-05T12:27:53.507344+00:00 heroku[router]: at=info method=GET path="/app/controllers/user.controller.js" host=kam-doc-cache.herokuapp.com request_id=a3fe62f6-c608-46b7-8f8d-a635ae9f2b1a fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2016-05-05T12:27:53.478991+00:00 heroku[router]: at=info method=GET path="/app/services/baseurl.service.js" host=kam-doc-cache.herokuapp.com request_id=d28e0504-649d-49ad-b7da-b041d42a8515 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=236
+2016-05-05T12:27:53.490882+00:00 heroku[router]: at=info method=GET path="/app/controllers/home.controller.js" host=kam-doc-cache.herokuapp.com request_id=059303c1-dba5-4182-962a-89d715b5c384 fwd="41.75.85.2" dyno=web.1 connect=0ms service=4ms status=304 bytes=237
+2016-05-05T12:27:53.510056+00:00 app[web.1]: [0mGET /app/services/baseurl.service.js [36m304 [0m1.161 ms - -[0m
+2016-05-05T12:27:53.515412+00:00 app[web.1]: [0mGET /app/services/user.service.js [36m304 [0m0.590 ms - -[0m
+2016-05-05T12:27:53.516710+00:00 app[web.1]: [0mGET /app/services/document.service.js [36m304 [0m0.559 ms - -[0m
+2016-05-05T12:27:53.522451+00:00 app[web.1]: [0mGET /app/services/toast.service.js [36m304 [0m3.575 ms - -[0m
+2016-05-05T12:27:53.522881+00:00 app[web.1]: [0mGET /app/controllers/home.controller.js [36m304 [0m3.274 ms - -[0m
+2016-05-05T12:27:53.536758+00:00 app[web.1]: [0mGET /app/controllers/user.controller.js [36m304 [0m0.800 ms - -[0m
+2016-05-05T12:27:53.688669+00:00 app[web.1]: [0mGET /app/controllers/dashboard.controller.js [36m304 [0m0.861 ms - -[0m
+2016-05-05T12:27:53.697974+00:00 app[web.1]: [0mGET /app/controllers/document.controller.js [36m304 [0m0.561 ms - -[0m
+2016-05-05T12:27:53.664336+00:00 heroku[router]: at=info method=GET path="/app/controllers/document.controller.js" host=kam-doc-cache.herokuapp.com request_id=a94b4063-60e7-4f9f-b09e-3d97745f8072 fwd="41.75.85.2" dyno=web.1 connect=0ms service=3ms status=304 bytes=237
+2016-05-05T12:27:53.662319+00:00 heroku[router]: at=info method=GET path="/app/controllers/dashboard.controller.js" host=kam-doc-cache.herokuapp.com request_id=3039af1b-9f50-4b45-9fbd-65262e4dbe63 fwd="41.75.85.2" dyno=web.1 connect=0ms service=6ms status=304 bytes=237
+2016-05-05T12:27:54.092417+00:00 heroku[router]: at=info method=GET path="/app/views/home.view.html" host=kam-doc-cache.herokuapp.com request_id=187a590c-e115-4e96-9acb-e55d2ea1deea fwd="41.75.85.2" dyno=web.1 connect=0ms service=5ms status=304 bytes=237
+2016-05-05T12:27:54.126145+00:00 app[web.1]: [0mGET /app/views/home.view.html [36m304 [0m0.911 ms - -[0m
+2016-05-05T12:27:54.412084+00:00 heroku[router]: at=info method=GET path="/app/views/homeNavBar.view.html" host=kam-doc-cache.herokuapp.com request_id=fb0f158a-1d01-4153-b03c-4a51a51623d7 fwd="41.75.85.2" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2016-05-05T12:27:54.445808+00:00 app[web.1]: [0mGET /app/views/homeNavBar.view.html [36m304 [0m1.543 ms - -[0m
+2016-05-05T12:27:54.457649+00:00 app[web.1]: [0mGET /assets/imgs/apple.jpg [36m304 [0m0.844 ms - -[0m
+2016-05-05T12:27:54.675952+00:00 app[web.1]: [0mGET /assets/imgs/account-plus.svg [36m304 [0m0.636 ms - -[0m
+2016-05-05T12:27:54.677740+00:00 app[web.1]: [0mGET /assets/imgs/login.svg [36m304 [0m0.394 ms - -[0m
+2016-05-05T12:27:54.426339+00:00 heroku[router]: at=info method=GET path="/assets/imgs/apple.jpg" host=kam-doc-cache.herokuapp.com request_id=445e4180-c75b-491d-bece-b72a0b4153f1 fwd="41.75.85.2" dyno=web.1 connect=1ms service=3ms status=304 bytes=240
+2016-05-05T12:27:54.644958+00:00 heroku[router]: at=info method=GET path="/assets/imgs/account-plus.svg" host=kam-doc-cache.herokuapp.com request_id=68946d78-2ec6-452b-a7a5-029892809291 fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2016-05-05T12:27:54.644888+00:00 heroku[router]: at=info method=GET path="/assets/imgs/login.svg" host=kam-doc-cache.herokuapp.com request_id=68c75f3b-55fe-4172-bd8d-3c001701f36c fwd="41.75.85.2" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2016-05-05T13:03:49.767613+00:00 heroku[web.1]: Idling
+2016-05-05T13:03:49.768356+00:00 heroku[web.1]: State changed from up to down
+2016-05-05T13:03:53.896008+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-05-05T13:03:55.864753+00:00 heroku[web.1]: Process exited with status 143

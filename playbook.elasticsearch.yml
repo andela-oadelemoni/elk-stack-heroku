@@ -1,0 +1,8 @@
+# install elasticsearch
+---
+- hosts: all
+  user: vagrant
+  become: yes
+  become_method: sudo
+  roles:
+  - elasticsearch
